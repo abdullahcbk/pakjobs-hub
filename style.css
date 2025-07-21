@@ -85,3 +85,22 @@ footer {
     padding: 0 10px;
   }
 }
+.badge {
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  border-radius: 12px;
+  padding: 2px 12px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+@media (max-width: 600px) {
+  .job {
+    font-size: 14px;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
