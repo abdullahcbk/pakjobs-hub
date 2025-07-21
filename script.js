@@ -85,3 +85,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('district-select').addEventListener('change', showJobs);
 });
+const listings = filteredJobs.map(j => `
+  <div class="job">
+    <h2>${j.icon || ''} ${j.title}</h2>
+    <div><strong>Department:</strong> ${j.department} <span class="badge">${j.type}</span></div>
+    <div><strong>Location:</strong> ${capitalize(j.district)}, ${capitalize(j.province)}</div>
+    <div><strong>Requirements:</strong> ${j.requirements}</div>
+    <div><strong>Deadline:</strong> ${j.deadline}</div>
+    <a href="${j.link}" target="_blank" class="apply-btn">Apply Now</a>
+  </div>
+`).join('');
