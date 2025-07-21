@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Government School Teacher",
+    "department": "Punjab Education Department",
+    "province": "punjab",
+    "district": "lahore",
+    "requirements": "Master's Degree in relevant subject, B.Ed, Age: 22-35 years",
+    "deadline": "2025-08-10",
+    "link": "https://schools.punjab.gov.pk/jobs"
+  },
+  {
+    "title": "Police Constable",
+    "department": "Sindh Police",
+    "province": "sindh",
+    "district": "karachi",
+    "requirements": "Intermediate, Age: 18-25 years, Height: 5'7\"",
+    "deadline": "2025-08-12",
+    "link": "https://sindhpolice.gov.pk/careers"
+  }
+]
