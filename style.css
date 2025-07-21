@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+header {
+  background: #1a73e8;
+  color: #fff;
+  padding: 30px 0 15px 0;
+  text-align: center;
+}
+.filters {
+  background: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08);
+}
+.filters label {
+  font-weight: bold;
+}
+.filters select {
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+#job-listings {
+  margin: 30px auto;
+  max-width: 800px;
+}
+.job {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 18px 24px;
+  margin-bottom: 20px;
+}
+.job h2 {
+  margin: 0 0 8px 0;
+  color: #1a73e8;
+}
+.job .meta {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 8px;
+}
+.job .requirements {
+  margin-bottom: 8px;
+}
+.apply-btn {
+  display: inline-block;
+  background: #1a73e8;
+  color: #fff;
+  padding: 9px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+.apply-btn:hover {
+  background: #155ab6;
+}
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+@media (max-width: 600px) {
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .job {
+    padding: 12px 8px;
+  }
+  #job-listings {
+    padding: 0 10px;
+  }
+}
