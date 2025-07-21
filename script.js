@@ -95,3 +95,20 @@ const listings = filteredJobs.map(j => `
     <a href="${j.link}" target="_blank" class="apply-btn">Apply Now</a>
   </div>
 `).join('');
+document.getElementById('search-input').addEventListener('input', showJobs);
+
+function showJobs() {
+  const province = document.getElementById('province-select').value;
+  const district = document.getElementById('district-select').value;
+  const search = document.getElementById('search-input').value.trim().toLowerCase();
+  let filteredJobs = jobs;
+  if (province) filteredJobs = filteredJobs.filter(j => j.province === province);
+  if (district) filteredJobs = filteredJobs.filter(j => j.district === district);
+  if (search) {
+    filteredJobs = filteredJobs.filter(j =>
+      j.title.toLowerCase().includes(search) ||
+      j.department.toLowerCase().includes(search)
+    );
+  }
+  // ...rest of rendering code
+}
