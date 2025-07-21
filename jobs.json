@@ -6,7 +6,9 @@
     "district": "lahore",
     "requirements": "Master's Degree in relevant subject, B.Ed, Age: 22-35 years",
     "deadline": "2025-08-10",
-    "link": "https://schools.punjab.gov.pk/jobs"
+    "link": "https://schools.punjab.gov.pk/jobs",
+    "type": "Government",
+    "icon": "🎓"
   },
   {
     "title": "Police Constable",
@@ -15,6 +17,96 @@
     "district": "karachi",
     "requirements": "Intermediate, Age: 18-25 years, Height: 5'7\"",
     "deadline": "2025-08-12",
-    "link": "https://sindhpolice.gov.pk/careers"
+    "link": "https://sindhpolice.gov.pk/careers",
+    "type": "Government",
+    "icon": "👮"
+  },
+  {
+    "title": "Software Engineer",
+    "department": "Tech Solutions Pvt Ltd",
+    "province": "punjab",
+    "district": "rawalpindi",
+    "requirements": "BS Computer Science, 2+ years experience",
+    "deadline": "2025-08-15",
+    "link": "https://techsolutions.com.pk/jobs",
+    "type": "Private",
+    "icon": "💻"
+  },
+  {
+    "title": "Medical Officer",
+    "department": "KPK Health Department",
+    "province": "kpk",
+    "district": "peshawar",
+    "requirements": "MBBS, Registered with PMC",
+    "deadline": "2025-08-20",
+    "link": "https://healthkp.gov.pk/jobs",
+    "type": "Government",
+    "icon": "🩺"
+  },
+  {
+    "title": "Lecturer - Mathematics",
+    "department": "Balochistan University",
+    "province": "balochistan",
+    "district": "quetta",
+    "requirements": "MS/MPhil in Mathematics, 3 years teaching experience",
+    "deadline": "2025-08-18",
+    "link": "https://bzu.edu.pk/jobs",
+    "type": "Government",
+    "icon": "📚"
+  },
+  {
+    "title": "Bank Officer",
+    "department": "National Bank of Pakistan",
+    "province": "punjab",
+    "district": "multan",
+    "requirements": "BBA/MBA, Age: 21-30 years",
+    "deadline": "2025-08-25",
+    "link": "https://nbp.com.pk/careers",
+    "type": "Government",
+    "icon": "🏦"
+  },
+  {
+    "title": "Junior Clerk",
+    "department": "AJK Public Service Commission",
+    "province": "ajk",
+    "district": "muzaffarabad",
+    "requirements": "Intermediate, Computer Proficiency",
+    "deadline": "2025-08-22",
+    "link": "https://ajkpsc.gov.pk/jobs",
+    "type": "Government",
+    "icon": "📠"
+  },
+  {
+    "title": "Civil Engineer",
+    "department": "GB Works Department",
+    "province": "gb",
+    "district": "gilgit",
+    "requirements": "BSc Civil Engineering, 1 year experience",
+    "deadline": "2025-08-28",
+    "link": "https://gbwd.gov.pk/jobs",
+    "type": "Government",
+    "icon": "🏗️"
+  },
+  {
+    "title": "Sales Executive",
+    "department": "ABC Pvt Ltd",
+    "province": "sindh",
+    "district": "hyderabad",
+    "requirements": "BBA, 1 year experience, good communication skills",
+    "deadline": "2025-08-14",
+    "link": "https://abcpvtltd.com/careers",
+    "type": "Private",
+    "icon": "🛒"
+  },
+  {
+    "title": "IT Administrator",
+    "department": "XYZ Corporation",
+    "province": "punjab",
+    "district": "faisalabad",
+    "requirements": "BS IT, CCNA certification preferred",
+    "deadline": "2025-08-17",
+    "link": "https://xyzcorp.com/jobs",
+    "type": "Private",
+    "icon": "🖥️"
   }
 ]
